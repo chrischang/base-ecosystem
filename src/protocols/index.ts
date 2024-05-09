@@ -8,6 +8,7 @@ export enum Category {
   Infra = 'Infra',
   NFT = 'NFT',
   Social = 'Social',
+  Wallet = 'Wallet',
 }
 
 export type Protocol = {
@@ -60,6 +61,13 @@ const protocols: Protocol[] = [
     url: 'https://www.friend.tech/',
     category: Category.Social,
     twitterUrl: 'https://twitter.com/friendtech',
+  },
+  {
+    name: 'Coinbase Wallet',
+    logoPath: 'logos/coinbasewallet.png',
+    url: 'https://www.coinbase.com/wallet',
+    category: Category.Wallet,
+    twitterUrl: 'https://twitter.com/CoinbaseWallet',
   },
 ];
 
