@@ -1,7 +1,8 @@
 import { FC, useMemo, useState } from 'react';
-import { Category, Protocol } from '../protocols';
+import { Protocol } from '../protocols';
 import { Box, Chip, Container, Typography } from '@mui/material';
 import ProtocolItem from './ProtocolItem';
+import { Category } from '../constants';
 
 const ProtocolByCategoryList: FC<{ groupProtocols: Protocol[][] }> = ({
   groupProtocols,
@@ -41,6 +42,7 @@ const ProtocolByCategoryList: FC<{ groupProtocols: Protocol[][] }> = ({
       {filteredGroupProtocols.map((group) => (
         <Container
           key={group[0].category}
+          maxWidth={'xl'}
           sx={{
             border: '2px solid #1e2025',
             borderRadius: 1,

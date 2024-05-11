@@ -34,13 +34,18 @@ const ProtocolItem: FC<{ protocol: Protocol }> = ({ protocol }) => {
       >
         <Box
           component={'img'}
-          src={`/${protocol.logoPath}` || ''}
+          src={`${protocol.logoPath}` || ''}
           width={50}
           height={50}
           alt={protocol.name}
           sx={{ borderRadius: '50%' }}
         />
-        <Typography color={'primary'} fontSize={16} textAlign={'center'}>
+        <Typography
+          color={'primary'}
+          fontSize={16}
+          textAlign={'center'}
+          fontWeight={'bold'}
+        >
           {protocol.name}
         </Typography>
       </Box>

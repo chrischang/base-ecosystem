@@ -41,7 +41,7 @@ const App: FC = () => {
       <MissingProtocolButton />
       <Paper sx={{ background: 'rgb(0,0,0)', minHeight: '100vh' }}>
         <Container
-          maxWidth={'md'}
+          maxWidth={'lg'}
           sx={{
             py: '4rem',
             display: 'flex',
