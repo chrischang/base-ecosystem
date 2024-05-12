@@ -38,6 +38,13 @@ const nft: Protocol[] = [
     twitterUrl: 'https://twitter.com/decentxyz',
   },
   {
+    name: 'Mint Sniper',
+    url: 'https://mintsniper.com/',
+    logoPath: '/logos/mint_sniper.png',
+    category: Category.NFT,
+    twitterUrl: 'https://twitter.com/mintsniperapp',
+  },
+  {
     name: 'Opensea',
     url: 'https://opensea.io/',
     logoPath: '/logos/opensea.jpg',
