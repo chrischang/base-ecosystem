@@ -135,6 +135,13 @@ const defi: Protocol[] = [
     category: Category.Defi,
     twitterUrl: 'https://twitter.com/Uniswap',
   },
+  {
+    name: 'sudoswap',
+    url: 'https://sudoswap.xyz/',
+    logoPath: '/logos/sudoswap.jpeg',
+    category: Category.Defi,
+    twitterUrl: 'https://twitter.com/sudoswap',
+  },
 ];
 
 export { defi };
