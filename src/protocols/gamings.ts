@@ -65,6 +65,13 @@ const gamings: Protocol[] = [
     category: Category.Gaming,
     twitterUrl: 'https://twitter.com/yieldguild',
   },
+  {
+    name: 'Deribet',
+    url: 'https://deribet.io/',
+    logoPath: '/logos/deribet-logo-400.jpeg',
+    category: Category.Gaming,
+    twitterUrl: 'https://twitter.com/deribet_io',
+  },
 ];
 
 export { gamings };
