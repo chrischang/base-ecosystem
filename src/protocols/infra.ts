@@ -31,6 +31,13 @@ const infra: Protocol[] = [
     twitterUrl: 'https://twitter.com/BlockdaemonHQ',
   },
   {
+    name: 'BlockJoy',
+    url: 'https://blockjoy.com/',
+    logoPath: '/logos/blockjoy.jpg',
+    category: Category.Infra,
+    twitterUrl: 'https://twitter.com/BlockJoyWeb3',
+  },
+  {
     name: 'Blocknative',
     url: 'https://onboard.blocknative.com/',
     logoPath: '/logos/blocknative.jpg',
