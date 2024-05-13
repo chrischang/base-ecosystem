@@ -115,6 +115,13 @@ const defi: Protocol[] = [
     twitterUrl: 'https://twitter.com/MoonwellDeFi',
   },
   {
+    name: 'Odos',
+    url: 'https://odos.xyz/',
+    logoPath: '/logos/odos.jpg',
+    category: Category.Defi,
+    twitterUrl: 'https://twitter.com/odosprotocol',
+  },
+  {
     name: 'Pancakeswap',
     url: 'https://pancakeswap.finance/',
     logoPath: '/logos/pancakeswap.jpg',
