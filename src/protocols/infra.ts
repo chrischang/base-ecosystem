@@ -87,6 +87,13 @@ const infra: Protocol[] = [
     twitterUrl: 'https://twitter.com/goldskyio',
   },
   {
+    name: 'Integral',
+    url: 'https://integral.xyz/',
+    logoPath: '/logos/integral.jpg',
+    category: Category.Infra,
+    twitterUrl: 'https://twitter.com/integral_xyz_',
+  },
+  {
     name: 'Moralis',
     url: 'https://moralis.io/',
     logoPath: '/logos/moralis.jpg',
