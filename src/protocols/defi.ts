@@ -110,7 +110,7 @@ const defi: Protocol[] = [
   {
     name: 'Moonwell',
     url: 'https://moonwell.fi/',
-    logoPath: '/logos/moonwell.jpg',
+    logoPath: '/logos/moonwell.png',
     category: Category.Defi,
     twitterUrl: 'https://twitter.com/MoonwellDeFi',
   },
