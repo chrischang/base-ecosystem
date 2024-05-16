@@ -115,6 +115,13 @@ const infra: Protocol[] = [
     twitterUrl: 'https://twitter.com/nansen_ai',
   },
   {
+    name: 'Nexandria',
+    url: 'https://www.nexandria.com/',
+    logoPath: '/logos/nexandria-blue.jpg',
+    category: Category.Infra,
+    twitterUrl: 'https://twitter.com/nexandria_co',
+  },
+  {
     name: 'Nodereal',
     url: 'https://nodereal.io/',
     logoPath: '/logos/nodereal.jpg',
