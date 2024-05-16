@@ -73,7 +73,14 @@ const infra: Protocol[] = [
     twitterUrl: 'https://twitter.com/flipsidecrypto',
   },
   {
-    name: 'GhostLogs.xyz',
+    name: 'GhostGraph',
+    url: 'https://ghostgraph.xyz',
+    logoPath: '/logos/ghostlogs.xyz.jpg',
+    category: Category.Infra,
+    twitterUrl: 'https://twitter.com/0xGhostLogs',
+  },
+  {
+    name: 'GhostLogs',
     url: 'https://ghostlogs.xyz',
     logoPath: '/logos/ghostlogs.xyz.jpg',
     category: Category.Infra,
