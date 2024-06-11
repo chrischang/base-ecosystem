@@ -14,6 +14,8 @@ import { groupByCategory } from './utils';
 import ProtocolByCategoryList from './components/ProtocolByCategoryList';
 import MissingProtocolButton from './components/MissingProtocolButton';
 import Disclaimer from './components/Disclaimer';
+import { Category } from './constants';
+
 const App: FC = () => {
   const theme = useMemo(() => {
     return createTheme({
@@ -30,9 +32,11 @@ const App: FC = () => {
   }, []);
 
   const groupProtocols = useMemo(() => {
-    return groupByCategory(protocols).sort((a, b) =>
-      a[0].category.localeCompare(b[0].category)
-    );
+    return groupByCategory(protocols).sort((a, b) => {
+      if (a[0].category === Category.OnchainSummer) return -1;
+      if (b[0].category === Category.OnchainSummer) return 1;
+      return a[0].category.localeCompare(b[0].category);
+    });
   }, []);
 
   return (

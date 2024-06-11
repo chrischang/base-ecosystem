@@ -6,6 +6,7 @@ import { infra } from './infra';
 import { nft } from './nft';
 import { social } from './social';
 import { wallet } from './wallet';
+import { onchainSummer } from './onchain_summer';
 
 export type Protocol = {
   logoPath: string;
@@ -16,6 +17,7 @@ export type Protocol = {
 };
 
 const protocols: Protocol[] = [
+  ...onchainSummer,
   ...bridges,
   ...defi,
   ...gamings,

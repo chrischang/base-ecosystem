@@ -9,4 +9,5 @@ export enum Category {
   NFT = 'NFT',
   Social = 'Social',
   Wallet = 'Wallet',
+  OnchainSummer = 'OnchainSummer',
 }
