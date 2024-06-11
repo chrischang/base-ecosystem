@@ -39,12 +39,12 @@ const ProtocolByCategoryList: FC<{ groupProtocols: Protocol[][] }> = ({
           />
         )}
       </Box>
-      {filteredGroupProtocols.map((group) => (
+      {filteredGroupProtocols.map((group, i) => (
         <Container
           key={group[0].category}
           maxWidth={'xl'}
           sx={{
-            border: '2px solid #1e2025',
+            border: `2px solid ${i === 0 ? 'gold' : '#1e2025'}`,
             borderRadius: 1,
             py: '1rem',
           }}
