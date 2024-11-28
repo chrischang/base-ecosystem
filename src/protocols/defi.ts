@@ -51,6 +51,13 @@ const defi: Protocol[] = [
     category: Category.Defi,
     twitterUrl: 'https://twitter.com/beefyfinance',
   },
+    {
+    name: 'Clipper',
+    url: 'https://clipper.exchange/',
+    logoPath: '/logos/clipper.jpg',
+    category: Category.Defi,
+    twitterUrl: 'https://twitter.com/Clipper_DEX',
+  },
   {
     name: 'Compound',
     url: 'https://compound.finance/',
