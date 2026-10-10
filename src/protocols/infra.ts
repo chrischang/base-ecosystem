@@ -10,6 +10,13 @@ const infra: Protocol[] = [
     twitterUrl: 'https://twitter.com/0xsplits',
   },
   {
+    name: 'Adbytes.Media',
+    url: 'https://adbytes.media/',
+    logoPath: '/logos/adbytes.png',
+    category: Category.Infra,
+    twitterUrl: 'https://x.com/AdbytesMedia',
+  },
+  {
     name: 'Amberdata',
     url: 'https://amberdata.io/',
     logoPath: '/logos/amberdata.jpg',
